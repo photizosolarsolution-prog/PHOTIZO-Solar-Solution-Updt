@@ -1,0 +1,63 @@
+/* PHOTIZO dedicated SEO pages — shared styles, kept separate from the existing homepage CSS */
+.seo-page{background:#fbfcf9;color:#17251e}
+.seo-page .page-hero{background:#10251d;color:#fff;padding:76px 0 70px;position:relative;overflow:hidden}
+.seo-page .page-hero:after{content:"";position:absolute;width:520px;height:520px;border-radius:50%;right:-160px;top:-240px;background:radial-gradient(circle,#31583b 0%,#10251d00 70%);pointer-events:none}
+.seo-page .page-hero .wrap{position:relative;z-index:1}
+.seo-page .breadcrumbs{font-size:11px;color:#b8c8bd;margin-bottom:28px;display:flex;gap:9px;flex-wrap:wrap}
+.seo-page .breadcrumbs a{color:#d7e9c6;text-decoration:underline;text-underline-offset:3px}
+.seo-page .page-hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:50px;align-items:center}
+.seo-page .page-hero h1{font:800 clamp(38px,5vw,60px)/1.08 Manrope,sans-serif;letter-spacing:-.05em;margin:18px 0 20px;color:#fff;max-width:760px}
+.seo-page .page-hero h1 em{font-style:normal;color:#b8df82}
+.seo-page .page-lead{font-size:15px;line-height:1.85;color:#c4d0c8;max-width:620px}
+.seo-page .page-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.seo-page .hero-photo{width:100%;height:360px;object-fit:cover;border-radius:5px;box-shadow:0 20px 45px #07150f55}
+.seo-page .hero-photo-placeholder{min-height:300px;border:1px solid #496452;border-radius:5px;background:linear-gradient(145deg,#244b39,#183529 65%,#12251d);display:grid;place-items:center;color:#c5e79b;font-size:52px}
+.seo-page .content-section{padding:76px 0}
+.seo-page .content-section.alt{background:#f0f4ec}
+.seo-page .content-section h2{font:800 clamp(30px,3.5vw,43px)/1.15 Manrope,sans-serif;letter-spacing:-.04em;color:#173c2c;margin:0 0 16px}
+.seo-page .content-section h2 em{font-style:normal;color:#719c48}
+.seo-page .content-section h3{font:700 18px Manrope,sans-serif;color:#1d392b;margin:0 0 10px}
+.seo-page .content-section p{font-size:14px;line-height:1.85;color:#68766d}
+.seo-page .section-intro{max-width:720px;margin-bottom:34px}
+.seo-page .detail-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.seo-page .detail-card{background:#fff;border:1px solid #e5ece2;padding:25px 24px;min-height:180px}
+.seo-page .detail-card .number{display:block;color:#789a57;font-size:10px;letter-spacing:.16em;font-weight:800;margin-bottom:15px}
+.seo-page .detail-card p{font-size:12px;margin:0}
+.seo-page .two-col{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:start}
+.seo-page .tick-list,.seo-page .plain-list{padding-left:20px;margin:18px 0;color:#526359}
+.seo-page .tick-list li,.seo-page .plain-list li{padding:6px 0;font-size:13px;line-height:1.65}
+.seo-page .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;counter-reset:step}
+.seo-page .step{background:#fff;border:1px solid #e5ece2;padding:22px;counter-increment:step}
+.seo-page .step:before{content:"0" counter(step);display:block;color:#789a57;font-size:11px;font-weight:800;letter-spacing:.12em;margin-bottom:14px}
+.seo-page .step p{font-size:12px;margin:0}
+.seo-page .photo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.seo-page .photo-grid figure{margin:0;background:#fff;border:1px solid #e5ece2}
+.seo-page .photo-grid img{display:block;width:100%;height:220px;object-fit:cover}
+.seo-page .photo-grid figcaption{padding:12px 14px;font-size:11px;color:#65746a;line-height:1.5}
+.seo-page .product-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.seo-page .product-card{background:#fff;border:1px solid #e5ece2;padding:15px}
+.seo-page .product-card img{width:100%;height:180px;object-fit:contain;background:#f7f9f5}
+.seo-page .product-card h3{font-size:15px;margin:14px 0 7px}
+.seo-page .product-card p{font-size:11px;margin:0}
+.seo-page .fee-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:24px 0}
+.seo-page .fee{background:#fff;border:1px solid #e5ece2;padding:22px}
+.seo-page .fee strong{display:block;font:800 27px Manrope,sans-serif;color:#173c2c;margin:7px 0}
+.seo-page .fee span{font-size:11px;color:#758278;line-height:1.55}
+.seo-page .total-fee{background:#173c2c;color:#fff;padding:20px 22px;border-radius:4px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.seo-page .total-fee strong{font:800 27px Manrope,sans-serif;color:#c5e79b}
+.seo-page .callout{background:#eaf2e2;border-left:4px solid #8eb65d;padding:20px 22px;margin:24px 0}
+.seo-page .callout p{margin:0}
+.seo-page .faq-list{display:grid;gap:12px}
+.seo-page .faq-item{background:#fff;border:1px solid #e5ece2;padding:20px 22px}
+.seo-page .faq-item h3{font-size:15px}
+.seo-page .faq-item p{margin:0;font-size:13px}
+.seo-page .cta-panel{background:#173c2c;color:#fff;padding:35px 38px;display:flex;justify-content:space-between;align-items:center;gap:28px}
+.seo-page .cta-panel h2{color:#fff;margin:0 0 8px;font-size:clamp(27px,3vw,38px)}
+.seo-page .cta-panel p{color:#c2d0c6;margin:0;max-width:620px}
+.seo-page .related-links{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.seo-page .related-links a{background:#fff;border:1px solid #e5ece2;padding:18px;font-size:12px;font-weight:700;color:#31543a;line-height:1.5}
+.seo-page .related-links a:hover{border-color:#9ab97a;background:#f8fbf4}
+.seo-page .page-footer-links{display:flex;gap:18px;flex-wrap:wrap}
+.seo-page .note{font-size:11px!important;color:#849087!important}
+@media(max-width:850px){.seo-page .page-hero-grid,.seo-page .two-col{grid-template-columns:1fr;gap:28px}.seo-page .hero-photo{height:300px}.seo-page .detail-grid{grid-template-columns:repeat(2,1fr)}.seo-page .steps{grid-template-columns:repeat(2,1fr)}.seo-page .product-grid{grid-template-columns:repeat(2,1fr)}.seo-page .related-links{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.seo-page .page-hero{padding:54px 0}.seo-page .content-section{padding:58px 0}.seo-page .detail-grid,.seo-page .steps,.seo-page .photo-grid,.seo-page .fee-grid{grid-template-columns:1fr}.seo-page .product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.seo-page .product-card{padding:10px}.seo-page .product-card img{height:125px}.seo-page .cta-panel{display:block;padding:26px 22px}.seo-page .cta-panel .btn{margin-top:20px}.seo-page .total-fee{display:block}.seo-page .total-fee strong{display:block;margin-top:8px}.seo-page .related-links{grid-template-columns:1fr 1fr}.seo-page .photo-grid img{height:190px}}
