@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://photizosolar.com/sitemap.xml
